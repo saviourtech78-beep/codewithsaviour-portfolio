@@ -1,0 +1,4 @@
+CodeWithSaviour — Software Engineer Resume
+
+Replace this placeholder with your real PDF resume at:
+public/assets/resume.pdf

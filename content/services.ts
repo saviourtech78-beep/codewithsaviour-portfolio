@@ -1,0 +1,101 @@
+import type { Service } from "@/types";
+
+export const services: Service[] = [
+  {
+    id: "svc-01",
+    title: "Frontend Development",
+    description:
+      "Pixel-precise, accessible interfaces with editorial craft and production resilience.",
+    icon: "layout",
+    deliverables: ["Design systems", "Component libraries", "Responsive UI"],
+    featured: true,
+  },
+  {
+    id: "svc-02",
+    title: "Next.js Development",
+    description:
+      "App Router architectures, Server Actions, edge rendering, and SEO-ready routing.",
+    icon: "next",
+    deliverables: ["App Router apps", "ISR/SSR strategy", "Performance budgets"],
+    featured: true,
+  },
+  {
+    id: "svc-03",
+    title: "API Development",
+    description: "Typed APIs, validation layers, and clean contracts between clients and services.",
+    icon: "api",
+    deliverables: ["REST / tRPC", "Auth flows", "Rate limiting"],
+  },
+  {
+    id: "svc-04",
+    title: "Backend Development",
+    description: "Reliable server logic, data models, and integrations that scale with product needs.",
+    icon: "server",
+    deliverables: ["Business logic", "Jobs & queues", "Third-party integrations"],
+  },
+  {
+    id: "svc-05",
+    title: "Landing Pages",
+    description: "Conversion-focused marketing surfaces with motion, clarity, and speed.",
+    icon: "sparkles",
+    deliverables: ["Hero systems", "A/B variants", "Analytics hooks"],
+    featured: true,
+  },
+  {
+    id: "svc-06",
+    title: "Dashboards",
+    description: "Dense information made calm — role-aware ops and analytics experiences.",
+    icon: "chart",
+    deliverables: ["Data viz", "Filters & export", "Realtime views"],
+  },
+  {
+    id: "svc-07",
+    title: "Portfolio Websites",
+    description: "Signature personal brands for founders, designers, and engineers.",
+    icon: "briefcase",
+    deliverables: ["Brand systems", "Case studies", "CMS-ready content"],
+  },
+  {
+    id: "svc-08",
+    title: "Business Websites",
+    description: "Elegant company sites that communicate trust and convert visitors.",
+    icon: "building",
+    deliverables: ["Multi-page IA", "CMS", "Lead capture"],
+  },
+  {
+    id: "svc-09",
+    title: "E-Commerce",
+    description: "Headless commerce with performance, checkout reliability, and growth tooling.",
+    icon: "cart",
+    deliverables: ["Storefronts", "Payments", "Catalog systems"],
+  },
+  {
+    id: "svc-10",
+    title: "Automation",
+    description: "Workflows that remove busywork — from content pipelines to ops scripts.",
+    icon: "workflow",
+    deliverables: ["CI automations", "Integrations", "Internal tools"],
+  },
+  {
+    id: "svc-11",
+    title: "Performance Optimization",
+    description: "Core Web Vitals, bundle strategy, and rendering paths tuned for excellence.",
+    icon: "zap",
+    deliverables: ["Audits", "Lighthouse plans", "Edge caching"],
+    featured: true,
+  },
+  {
+    id: "svc-12",
+    title: "SEO",
+    description: "Technical SEO foundations: metadata, structured data, sitemaps, and content architecture.",
+    icon: "search",
+    deliverables: ["Metadata systems", "JSON-LD", "Content templates"],
+  },
+  {
+    id: "svc-13",
+    title: "Consulting",
+    description: "Architecture reviews, hiring guidance, and product engineering strategy.",
+    icon: "message",
+    deliverables: ["Code audits", "Roadmaps", "Team coaching"],
+  },
+];
