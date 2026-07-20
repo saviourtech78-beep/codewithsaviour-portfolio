@@ -10,7 +10,7 @@ export const siteConfig = {
     github: "https://github.com/codewithsaviour",
     linkedin: "https://linkedin.com/in/codewithsaviour",
     twitter: "https://x.com/codewithsaviour",
-    email: "hello@codewithsaviour.com",
+    email: "nukpezahsaviour@gmail.com",
     calendly: "https://calendly.com/codewithsaviour",
   },
   author: {
